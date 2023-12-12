@@ -21,6 +21,7 @@ body{
     border: 1px solid rgba(208,208,208,208,0.456);
     width: 768px;
     min-height: 480px;
+    overflow: hidden;
 }
 .container p{
     
@@ -173,7 +174,7 @@ body{
     border-radius: 0 230px 230px 0;
 }
 .container.active .toggle{
-    tranSform: translateX(50%);
+    transform: translateX(50%);
 }
 .container.active .login{
     display: none;
