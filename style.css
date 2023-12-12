@@ -165,4 +165,27 @@ body{
     background-color: black;
     color: white;
 }
-
+.container.active .right{
+    transform: translateX(200%);
+}
+.container.active .toggle-container{
+    transform: translateX(-100%);
+    border-radius: 0 230px 230px 0;
+}
+.container.active .toggle{
+    tranSform: translateX(50%);
+}
+.container.active .login{
+    display: none;
+}
+.container.active .register{
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+}
+.left{
+    transform: translateX(-200%);
+}
+.container.container .left{
+    transform: translateX(0);
+}
